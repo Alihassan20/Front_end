@@ -1,0 +1,19 @@
+h1 {
+    color : blue;
+    font-family: verdana;
+   font-size: 300%;
+    }
+    p{
+    color : red;
+    font-family: courier;
+       font-size: 80%;
+    }
+    th, td {
+   border: 1px solid black;
+     text-align: left;
+   border-radius: 10px;
+       }
+       .city {
+       font-size: 120%;
+       color: green;
+}
