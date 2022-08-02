@@ -1,19 +1,67 @@
 h1 {
-    color : blue;
+    color: blue;
     font-family: verdana;
-   font-size: 300%;
-    }
-    p{
-    color : red;
-    font-family: courier;
-       font-size: 80%;
-    }
-    th, td {
-   border: 1px solid black;
-     text-align: left;
-   border-radius: 10px;
-       }
-       .city {
-       font-size: 120%;
-       color: green;
+    font-size: 300%;
 }
+
+p {
+    color: red;
+    font-family: courier;
+    font-size: 80%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.city {
+    font-size: 120%;
+    color: green;
+}
+.table{
+    color: aquamarine;
+    background-color: azure;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
