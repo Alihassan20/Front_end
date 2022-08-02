@@ -16,8 +16,13 @@
 		 }
 		 th, td {
 		border: 1px solid black;
+		  text-align: left;
 		border-radius: 10px;
 			}
+			.city {
+			font-size: 120%;
+			color: green;
+}
 </style>
 </head>
 <body>
@@ -27,7 +32,24 @@
 <h2>This is heading 2</h2>
 <h3>This is heading 3</h3>
 <!-- style Text -->
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+</canvas>
 
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+ctx.stroke();
+</script>
+
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>
 
 <b>This text is bold</b>
 <strong>This text is important!</strong>
@@ -64,11 +86,33 @@ in the source code,
 but the browser
 ignores it.
 </p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
 
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
 
 <p>This is a <br> paragraph with a line break.</p>
 <div>
-<table>
+<table style="width:100%">
 
   <tr>
     <th>Company</th>
