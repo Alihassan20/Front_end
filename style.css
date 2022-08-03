@@ -8,6 +8,8 @@ p {
     color: red;
     font-family: courier;
     font-size: 80%;
+    font-family: 'Mouse Memoirs', sans-serif;
+
 }
 
 th,
@@ -21,6 +23,7 @@ td {
   border: 1px solid black;
   border-radius: 15px;
   color: green;
+  font-family: 'Mouse Memoirs', sans-serif;
   background-color: azure;
   font-size: 50px;
   margin: 20px;
