@@ -17,6 +17,16 @@ td {
     border-radius: 10px;
 }
 
+.container{
+  border: 1px solid black;
+  border-radius: 15px;
+  color: green;
+  background-color: azure;
+
+
+
+}
+
 .city {
     font-size: 120%;
     color: green;
