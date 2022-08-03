@@ -6,3 +6,9 @@
     height: 500px;
 
 }
+.card{
+    box-shadow: -10px 8px 98px -15px rgba(0,0,0,0.51);
+}
+.card:hover{
+    box-shadow: -10px 0px 77px 13px rgba(0,0,0,0.51);
+}
