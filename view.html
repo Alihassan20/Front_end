@@ -4,8 +4,8 @@
 <head>
   <title>Page Title</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
 
 
   <link rel="stylesheet" href="style.css">
@@ -13,7 +13,26 @@
 
 <body>
   <!-- head -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <form class="d-flex input-group w-auto">
+        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+          aria-describedby="search-addon" />
+        <span class="input-group-text text-white border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
+      </form>
+    </div>
+  </nav>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled />
+    <label class="form-check-label" for="flexCheckDisabled">Disabled checkbox</label>
+  </div>
 
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled />
+    <label class="form-check-label" for="flexCheckCheckedDisabled">Disabled checked checkbox</label>
+  </div>
   <h1 class="container">This is a Heading</h1>
   <h2>This is heading 2</h2>
   <h3>This is heading 3</h3>
@@ -48,7 +67,7 @@
 
   <small>This is some smaller text.</small>
 
-  <p>Do not forget to buy <mark>milk</mark> today.</p>
+  <p class="container">Do not forget to buy <mark>milk</mark> today.</p>
 
   <p>My favorite color is <del>blue</del> red.</p>
 

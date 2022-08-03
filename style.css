@@ -23,7 +23,6 @@ td {
   border: 1px solid black;
   border-radius: 15px;
   color: green;
-  font-family: 'Mouse Memoirs', sans-serif;
   background-color: azure;
   font-size: 50px;
   margin: 20px;
@@ -31,6 +30,29 @@ td {
 
 
 
+}
+.container p{
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 50px;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 .city {
